@@ -4,6 +4,7 @@ import 'package:device_preview/device_preview.dart';
 import 'package:flutter_application_1/view/cadastro_view.dart';
 import 'package:flutter_application_1/view/credencial_view.dart';
 import 'package:flutter_application_1/view/resenhar_view.dart';
+import 'package:flutter_application_1/view/list_view.dart';
 import 'view/login_view.dart';
 
 void main() {
@@ -29,6 +30,7 @@ class MainApp extends StatelessWidget {
         'cadastro': (context) => CadastroView(),
         'resenhar': (context) => ResenharView(),
         'credencial': (context) => CredencialView(),
+        //'lista': (context) => ListView(),
       },
     );
   }

@@ -115,6 +115,7 @@ class _LoginViewState extends State<LoginView> {
                       );
                     });
                   }
+                  Navigator.pushNamed(context, 'cadastro');
                 },
                 child: Text('LOGIN'),
                 
